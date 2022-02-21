@@ -61,7 +61,7 @@ ypred = reg.predict(xtest)
 
 #R^2 also accuracy?
 #Accuracy is a measure for the closeness of the measurements to a specific value,
-reg.score(X, y)
-reg.score(xtest, ytest, sample_weight=None) 
+print(reg.score(X, y))
+print(reg.score(xtest, ytest, sample_weight=None)) 
 
 
