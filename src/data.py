@@ -22,4 +22,3 @@ data = {'nr_passengers': nr_passengers,
 df = pd.DataFrame(data)
 print(df)
 
-
