@@ -1,3 +1,8 @@
+#my custom ignore
+environment/*
+environment.yml/
+.python-version/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
